@@ -24,8 +24,9 @@ h2 {
 
 .gif {
     height: 90%;
-    width: 110%;
+    width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 .btn-group {

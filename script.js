@@ -15,7 +15,7 @@ const handleYesClick = () => {
 
   // Define predefined romantic date ideas
   const dateIdeas = [
-    "Cook a romantic dinner together",
+    /*"Cook a romantic dinner together",
     "Go for a moonlit walk on the beach",
     "Have a picnic in the park",
     "Take a dance class together",
@@ -114,7 +114,8 @@ const handleYesClick = () => {
     "Take a cooking class together",
     "Go on a river cruise",
     "Plan a weekend getaway to a cozy cabin",
-    "Attend a dance class together",
+    "Attend a dance class together",*/
+    
 
     // Add more date ideas as needed
   ];
@@ -140,7 +141,7 @@ const handleYesClick = () => {
     const randomIndex = Math.floor(Math.random() * dateIdeas.length);
     const selectedDateIdea = dateIdeas[randomIndex];
 
-    alert(`How about this romantic date idea: ${selectedDateIdea}`);
+    alert(`You know it 📞`);
   });
 
   // Replace yesBtn with the new letsGoBtn

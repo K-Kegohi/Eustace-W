@@ -4,7 +4,7 @@ const gif = qs(".gif");
 const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
-  question.innerHTML = "Nice, Nice, Nice! Call Me 😂😂!!";
+  question.innerHTML = "Nice, Nice, Nice! Call me 😂😂!!";
   gif.src = "https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif";
 
   // Remove the 'mouseover' event listener from noBtn
@@ -141,7 +141,7 @@ const handleYesClick = () => {
     const randomIndex = Math.floor(Math.random() * dateIdeas.length);
     const selectedDateIdea = dateIdeas[randomIndex];
 
-    alert(`You know it 📞`);
+    alert(`Yeah do the thing 📞🫠`);
   });
 
   // Replace yesBtn with the new letsGoBtn
